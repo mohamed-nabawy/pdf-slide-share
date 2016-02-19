@@ -1,0 +1,27 @@
+
+<head>
+<title> Galaxy S6 Edge</title >
+
+</head>
+
+<img src= "/assets/flat_pc.jpg" width = "1000" height="500"  alt= "Failure">
+
+
+
+
+
+
+<body>
+<p><%= link_to 'Like', '/greeter/like' ; %></p>
+
+
+<p><%= @nike.number_of_likes %></p>
+
+<%= render 'form' %>
+
+
+<%= render template: "/comments/index" %>
+
+</body>
+
+<%= link_to 'pdf', '/greeter/convert' ; %>
